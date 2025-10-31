@@ -12,6 +12,7 @@
 The system provides **dual LiDAR support** through direct point cloud merging and introduces an **IMU enhancement module** that integrates a **Butterworth low-pass filter** and an **Extended Kalman Filter (EKF)** for more stable and accurate orientation estimation.  
 
 This configuration slightly improves **pose stability and consistency** under mild vibration or uneven motion conditions, which often occur in outdoor or mobile robotic applications.
+The Butterworth filter can be enabled or disabled via a ROS parameter, offering flexibility for different use cases.
 
 > ⚠️ **Note:**  
 > This source does **not** perform calibration or time synchronization between the two LiDAR sensors.  
