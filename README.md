@@ -1,7 +1,7 @@
 # Dual-LiDAR-LIO-SAM with IMU Enhancement (ROS2)
 
 <p align="center">
-  <img src="docs/demo.gif" alt="Dual-LiDAR-LIO-SAM Demo" width="80%">
+  <img src="doc/duallio.gif" alt="Dual-LiDAR-LIO-SAM Demo" width="100%">
 </p>
 
 ---
