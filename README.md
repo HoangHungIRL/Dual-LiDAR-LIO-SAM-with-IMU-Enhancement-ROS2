@@ -15,7 +15,7 @@ This configuration slightly improves **pose stability and consistency** under mi
 The Butterworth filter can be enabled or disabled via a ROS parameter, offering flexibility for different use cases.
 
 > ⚠️ **Note:**  
-> This source does **not** perform calibration or time synchronization between the two LiDAR sensors.  
+> This source does **not** perform calibration between the two LiDAR sensors.  
 > Users must prepare and configure the extrinsic transformation between LiDAR A and LiDAR B beforehand.
 
 ---
