@@ -60,7 +60,7 @@ ROS2 Humble.
 ```bash
 # 1. Clone this repository
 cd ~/ros2_ws/src
-https://github.com/HoangHungIRL/Dual-LiDAR-LIO-SAM-with-IMU-Enhancement-ROS2-.git
+https://github.com/HoangHungIRL/Dual-LiDAR-LIO-SAM-with-IMU-Enhancement-ROS2.git
 
 # 2. Build
 cd ~/ros2_ws
