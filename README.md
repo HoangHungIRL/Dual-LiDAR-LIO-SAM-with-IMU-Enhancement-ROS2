@@ -66,15 +66,21 @@ https://github.com/HoangHungIRL/Dual-LiDAR-LIO-SAM-with-IMU-Enhancement-ROS2-.gi
 cd ~/ros2_ws
 colcon build
 
-# 3 Source environment
+# 4. Source environment
 source install/setup.bash
 
-# 4. Run algorithm
+# 5. Run algorithm
 ros2 launch lio_sam run.launch.py
 
-# 5. Play existing bag files
+# 6. Play existing bag files
 ros2 bag play <your bag name>
 ```
+## Preparing Parameters
+
+You can modify the IMU filter settings in the params file located in the config folder.
+
+The extrinsic calibration between the two LiDARs can be adjusted in the launch file.
+
 ## 🧪 Sample Dataset
 
 We provide an indoor dataset for testing the algorithm.
