@@ -35,28 +35,31 @@ This configuration slightly improves **pose stability and consistency** under mi
 
 ---
 ## Requirements
-
 Ubuntu 22.04.
 
 ROS2 Humble.
 
 ## Dependencies
-ROS2
-sudo apt install ros-<ros2-version>-perception-pcl \
-  	   ros-<ros2-version>-pcl-msgs \
-  	   ros-<ros2-version>-vision-opencv \
-  	   ros-<ros2-version>-xacro
-gtsam (Georgia Tech Smoothing and Mapping library)
-# Add GTSAM-PPA
-sudo add-apt-repository ppa:borglab/gtsam-release-4.1
-sudo apt install libgtsam-dev libgtsam-unstable-dev
+- [ROS2](https://docs.ros.org/en/humble/Installation.html)
+  ```
+  sudo apt install ros-<ros2-version>-perception-pcl \
+		   ros-<ros2-version>-pcl-msgs \
+		   ros-<ros2-version>-vision-opencv \
+		   ros-<ros2-version>-xacro
+  ```
+- [gtsam](https://gtsam.org/get_started) (Georgia Tech Smoothing and Mapping library)
+  ```
+  # Add GTSAM-PPA
+  sudo add-apt-repository ppa:borglab/gtsam-release-4.1
+  sudo apt install libgtsam-dev libgtsam-unstable-dev
+  ```
 
 ## ⚙️ Installation
 
 ```bash
 # 1. Clone this repository
 cd ~/ros2_ws/src
-git clone https://github.com/HoangHungIRL/Dual-LiDAR-LIO-SAM-with-IMU-Enhancement-ROS2.git
+https://github.com/HoangHungIRL/Dual-LiDAR-LIO-SAM-with-IMU-Enhancement-ROS2-.git
 
 # 2. Build
 cd ~/ros2_ws
@@ -70,7 +73,7 @@ ros2 launch lio_sam run.launch.py
 
 # 5. Play existing bag files
 ros2 bag play <your bag name>
-
+```
 ## 🧪 Sample Dataset
 
 We provide an indoor dataset for testing the algorithm.
