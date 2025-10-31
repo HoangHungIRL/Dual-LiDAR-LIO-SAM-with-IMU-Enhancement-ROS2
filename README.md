@@ -66,13 +66,13 @@ https://github.com/HoangHungIRL/Dual-LiDAR-LIO-SAM-with-IMU-Enhancement-ROS2-.gi
 cd ~/ros2_ws
 colcon build
 
-# 4. Source environment
+# 3. Source environment
 source install/setup.bash
 
-# 5. Run algorithm
+# 4. Run algorithm
 ros2 launch lio_sam run.launch.py
 
-# 6. Play existing bag files
+# 5. Play existing bag files
 ros2 bag play <your bag name>
 ```
 ## Preparing Parameters
