@@ -24,7 +24,7 @@ The Butterworth filter can be enabled or disabled via a ROS parameter, offering 
 
 - 🔷 **Dual LiDAR merge** — directly merges point clouds from two LiDAR sensors to increase spatial coverage and density.  
 - 🔶 **IMU noise suppression** — Butterworth low-pass filter effectively removes high-frequency vibration noise.  
-- 🔹 **EKF-based orientation estimation** — enhances IMU attitude stability for odometry and mapping.  
+- 🔹 **EKF-based orientation estimation** — enhances IMU attitude estimation.  
 - 💪 **Improved IMU stability** — the filtering and estimation pipeline slightly improves pose accuracy under vibration or rough motion.
 
 ---
